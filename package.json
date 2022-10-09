@@ -1,0 +1,26 @@
+{
+  "name": "react-pwa-boilerplate",
+  "version": "1.0.0",
+  "description": "ReactPWA Minimal boilerplate",
+  "type": "module",
+  "scripts": {
+    "dev": "reactpwa dev",
+    "build": "reactpwa build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tirth Bodawala <tirthbodawala@atyantik.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@reactpwa/cli": "^1.0.4-alpha.0",
+    "@reactpwa/core": "^1.0.4-alpha.0",
+    "bulma": "^0.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "eslint-config-reactpwa": "^1.0.3-alpha.0"
+  }
+}
