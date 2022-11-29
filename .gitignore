@@ -69,3 +69,8 @@ dist
 
 # Ignore sass cache
 .sass-cache
+
+.DS_Store
+
+.do
+

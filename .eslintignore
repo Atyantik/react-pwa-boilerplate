@@ -6,3 +6,4 @@ src/__tests__
 jest-transformer.js
 jest.config.js
 src/sw.js
+webpack.js

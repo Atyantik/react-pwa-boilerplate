@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "reactpwa dev",
     "build": "reactpwa build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +23,15 @@
   "devDependencies": {
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
-    "eslint-config-reactpwa": "^1.0.35-alpha.0"
+    "eslint-config-reactpwa": "^1.0.35-alpha.0",
+    "eslint-plugin-jest": "^27.1.6",
+    "eslint-plugin-testing-library": "^5.9.1",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": {
+    "run": [
+      "lint:fix",
+      "lint"
+    ]
   }
 }
